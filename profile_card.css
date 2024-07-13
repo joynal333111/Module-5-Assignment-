@@ -1,0 +1,259 @@
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFD6D9;
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+
+.card{
+    width: 681px;
+    height: 1047px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    justify-content: center;
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,0.3));
+    border: solid 1px white;
+    
+}
+    
+    
+
+.rectangle{
+    width: 100%;
+    height:780px ;
+    background-color: #03353D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 30px 30px;
+    /* align-items: flex-start; */ 
+
+}
+.top-r{
+    width: 681px; 
+    height: 35px;
+    background-color: #EDEDED;
+    position: absolute; 
+    top:-29px;
+    transform: rotate(1.3deg);
+}
+.circle-1{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: #D5D5D3;
+    border-radius: 50%;
+    top: -130px; 
+    background-image: url('my-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+.circle-2{
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    background-color:#06444d;
+    top: -138px;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.3));
+    
+}
+.circle-3{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #0E282B;
+    top: -165px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.rectangle .c3{
+    width: 100%;
+    height:740px ;
+    background-color: #03353D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.rectangle-2{
+    width: 100%;
+    height: 170px;
+    background-color: #0E282B;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    
+    
+    
+}
+.rectangle-2 h1{
+    color: white;
+    font-size: 60px;
+    margin: 5px;
+    padding-top: 20px;
+    letter-spacing: -2px;
+    /* line-height: 5px; */
+    
+    
+}
+
+.rectangle-3{
+    width: 355px;
+    height: 3px;
+    background-color: #ffffff; 
+    margin-bottom: -5px;
+   
+}
+
+.rectangle-2 h3{
+    color: white;
+    letter-spacing: 2.5px;
+    
+   
+}
+
+
+.rectangle .sr-1{
+    position: absolute;
+    width: 85%;
+    height: 2px;
+    background-color: white;
+    margin-top: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.sr-1 .cr-1{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sr-1 .cr-2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #03353D;
+    border-radius: 50%;
+    background-image: url('call.png');
+    background-size: 60% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.rectangle .mobileno,.mobileno-2{
+    position: absolute;
+    color: white;
+    margin-top: 391px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.rectangle .mobileno-2{
+    margin-top: 425px;  
+}
+
+.rectangle .sr-2{
+    position: absolute;
+    width: 85%;
+    height: 2px;
+    background-color: white;
+    margin-top: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.sr-2 .cr-3,.cr-4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sr-2 .cr-4{
+    background-color: #03353D;
+    background-image: url('mail-icon.png');
+    background-size: 60% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rectangle .email, .email-2{
+    position: absolute;
+    color: white;
+    margin-top: 506px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.rectangle .email-2{
+    margin-top: 540px;
+}
+.bottom, .bottom-2{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    background-color: #EF4B4C;
+    bottom: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+.bottom-2{
+    background-color: #0E282B;
+    margin-bottom: 12px;
+    opacity:0.5; 
+}
+.bottom-3, .bottom-4{
+    position: absolute;
+    width: 80%;
+    height: 35px;
+    background-color: #EF4B4C;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+.bottom-4{
+    background-color: #EDEDED;
+    top: 0;
+    margin-top: 9px; 
+}
+.rectangle .des{
+    color: white;
+    position: absolute;
+    margin-top: 88%;
+    font-size: 19px;
+    width: 85%;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+}
+    
+ 
